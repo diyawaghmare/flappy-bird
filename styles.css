@@ -16,7 +16,7 @@ h1{
 #game{
     width: 400px;
     height: 500px;
-    background-color: white;
+    background-color: rgb(119, 214, 252);
     border: 2px solid black;
     margin: auto;
     overflow: hidden;
@@ -34,14 +34,14 @@ h1{
 }
 
 @keyframes block{
-    0%{left:400px}
-    100%{left:-50px}
+    from {left: 400px}
+    to {left: -50px;}
 }
 
 #hole{
     width: 50px;
     height: 150px;
-    background-color: white;
+    background-color: rgb(119, 214, 252);
     position: relative;
     left:400px;
     top:-500px;
@@ -57,4 +57,8 @@ h1{
     position: absolute;
     top: 100px;
     border-radius: 50%;
+}
+
+#character img{
+    background-color: transparent;
 }
